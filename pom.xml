@@ -11,6 +11,7 @@
         <module>ad-eureka</module>
         <module>ad-gateway</module>
         <module>zephyr-ad-service</module>
+        <module>ad-sponsor</module>
     </modules>
     <packaging>pom</packaging>
 
