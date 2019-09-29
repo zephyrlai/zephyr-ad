@@ -1,12 +1,10 @@
 package cn.zephyr.entity.unit_condition;
 
-import cn.zephyr.constrants.CommonStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.Date;
 
 /**
  * @ClassName: CreativeUnit
