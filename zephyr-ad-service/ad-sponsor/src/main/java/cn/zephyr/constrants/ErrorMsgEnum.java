@@ -16,6 +16,7 @@ public enum ErrorMsgEnum {
     SAME_NAME_ERROR("SAME_NAME_ERROR","存在同名的用户"),
     CAN_NOT_FIND_RECORD("CAN_NOT_FIND_RECORD","数据不存在"),
     SAME_NAME_PLAN_ERROR("SAME_NAME_PLAN_ERROR","存在同名的推广计划"),
+    SAME_NAME_UNIT_ERROR("SAME_NAME_UNIT_ERROR","存在同名的推广单元"),
 
     ;
     private String key;
