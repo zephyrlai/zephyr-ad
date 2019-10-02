@@ -19,6 +19,7 @@ import cn.zephyr.service.IAdUnitService;
 import cn.zephyr.vo.req.*;
 import cn.zephyr.vo.res.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.*;
@@ -30,6 +31,7 @@ import java.util.stream.Collectors;
  * @Description:
  * @Date: 2019/9/29 19:18
  */
+@Service
 public class IAdUnitServiceImpl implements IAdUnitService {
     @Autowired
     private AdPlanRepository planRepository;
